@@ -69,12 +69,11 @@ date.downloaded&lt;-date()
 unzip(xfile)
 
 date.downloaded</code></pre>
-<pre><code>## [1] &quot;Fri Jul 18 18:14:03 2014&quot;</code></pre>
+<pre><code>## [1] &quot;Fri Jul 18 18:21:30 2014&quot;</code></pre>
 <pre class="r"><code>list.files(local)</code></pre>
-<pre><code>##  [1] &quot;activity.csv&quot;      &quot;activity.zip&quot;      &quot;cache&quot;            
-##  [4] &quot;doc&quot;               &quot;figure&quot;            &quot;instructions_fig&quot; 
-##  [7] &quot;PA1_template.html&quot; &quot;PA1_template.md&quot;   &quot;PA1_template.Rmd&quot; 
-## [10] &quot;README.md&quot;</code></pre>
+<pre><code>## [1] &quot;activity.csv&quot;      &quot;activity.zip&quot;      &quot;cache&quot;            
+## [4] &quot;doc&quot;               &quot;figure&quot;            &quot;instructions_fig&quot; 
+## [7] &quot;PA1_template.html&quot; &quot;PA1_template.Rmd&quot;  &quot;README.md&quot;</code></pre>
 <p>Load the raw data into R</p>
 <pre class="r"><code>myFile&lt;-&quot;C:/Users/Matthew/Documents/GitHub/RepData_PeerAssessment1/activity.csv&quot;
 pre.data&lt;-read.csv(myFile,colClasses=c(&quot;numeric&quot;, &quot;Date&quot;, &quot;numeric&quot;))</code></pre>
@@ -195,7 +194,6 @@ head(data.x)</code></pre>
 <pre class="r"><code>weekend&lt;-c(&quot;Sat&quot;,&quot;Sun&quot;)
 wd.data&lt;-data.x[data.x$fdata!=weekend,]
 we.data&lt;-data.x[data.x$fdata==weekend,]</code></pre>
-<p>s</p>
 </div>
 </div>
 

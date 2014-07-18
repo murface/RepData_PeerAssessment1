@@ -1,3 +1,6 @@
+---
+output: html_document
+---
 # Reproducible Research: Peer Assessment 1
 
 ## Loading and preprocessing the data
@@ -132,5 +135,3 @@ wd.data<-data.x[data.x$fdata!=weekend,]
 we.data<-data.x[data.x$fdata==weekend,]
 
 ```
-
-s
